@@ -333,7 +333,8 @@ section{
 }
 
 .project-cont{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
     justify-content: center;
     align-items: center;
@@ -374,6 +375,7 @@ section{
 
 #contact{
     position: relative;
+    margin-top: 25rem;
     height: 76vh;
     
 }
